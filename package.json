@@ -1,0 +1,17 @@
+{
+  "name": "zpro-openai-transfer",
+  "version": "1.0.0",
+  "description": "API para transferir atendimentos Z-Pro via OpenAI Tool Call",
+  "main": "api/transfer.js",
+  "scripts": {
+    "start": "node api/transfer.js"
+  },
+  "keywords": ["vercel", "openai", "zpro", "whatsapp", "integration"],
+  "author": "CFCMais",
+  "license": "ISC",
+  "dependencies": {
+    "node-fetch": "^2.6.7"
+    // Nota: Se usar Node.js 18+ na Vercel, 'fetch' é nativo e 'node-fetch' não é estritamente necessário.
+    // Você pode remover esta dependência e a linha 'const fetch = require('node-fetch');' do transfer.js.
+  }
+}
