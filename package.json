@@ -11,7 +11,5 @@
   "license": "ISC",
   "dependencies": {
     "node-fetch": "^2.6.7"
-    // Nota: Se usar Node.js 18+ na Vercel, 'fetch' é nativo e 'node-fetch' não é estritamente necessário.
-    // Você pode remover esta dependência e a linha 'const fetch = require('node-fetch');' do transfer.js.
   }
 }
